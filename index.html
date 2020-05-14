@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>jQuery-test</title>
+</head>
+<body>
+  <div class="main">
+    <div class="info">
+      <p id="pair"></p>
+      <button class="reset">reset</button>
+    </div>
+    <div class="field">
+      <ul id="cards"></ul>
+    </div>
+  </div>
+  <script type="text/javascript" src="bundle/main.js"></script>
+</body>
+</html>
+
+<style>
+
+#cards li {
+  margin: 10px;
+  display: inline-block;
+  list-style: none;
+}
+
+#cards li img {
+  height: 200px;
+}
+
+#cards li.off, #cards li.lock {
+  pointer-events : none;
+}
+
+button.reset {
+  display: none;
+}
+</style>
