@@ -16,6 +16,6 @@
   "dependencies": {
     "browserify": "^16.5.1",
     "jquery": "^3.5.0",
-    "terser": "^4.7.0"
+    "terser": "^4.8.1"
   }
 }
